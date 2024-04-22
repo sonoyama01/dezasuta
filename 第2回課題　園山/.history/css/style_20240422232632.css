@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.blue{
+    max-width: 960px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue>div{
+    width: 300px;
+    height: 300px;
+    border-color: blue;
+}
+
+.red{
+
+}

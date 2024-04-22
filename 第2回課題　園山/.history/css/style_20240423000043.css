@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.blue{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue div{
+    width: 300px;
+    height: 300px;
+    background-color:blue;
+}
+
+
+.red{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.red div{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+.flexbox{
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+}
+li{
+    padding: 0 20px;
+}

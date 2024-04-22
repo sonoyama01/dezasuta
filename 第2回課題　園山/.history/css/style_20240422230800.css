@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.blue{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
