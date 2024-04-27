@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+  width: 960px;
+  background-color: #eeeeee;
+}
+h1 {
+  text-align: center;
+  color: #006400;
+  margin: 50px auto;
+}
+
+h2 {
+  color: #006400;
+  border-left: 5px solid #006400;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.box div {
+  width: 30%;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body{
+    width: 960px;
+    background-color:#eeeeee ;
+}
+h1{
+    color: aquamarine;
+}

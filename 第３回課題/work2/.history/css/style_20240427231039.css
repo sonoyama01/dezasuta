@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+  width: 960px;
+  background-color: #eeeeee;
+}
+h1 {
+  text-align: center;
+  color: rgb(12, 246, 125);
+  margin: 30px auto;
+  padding: 0px auto;
+}
+
+h2 {
+  color: rgb(12, 246, 125);
+  border-left: 5px solid rgb(12, 246, 125);
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.box div {
+  width: 30%;
+}

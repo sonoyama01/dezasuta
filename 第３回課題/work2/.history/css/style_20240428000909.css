@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+  width: 960px;
+  background-color: #eeeeee;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: #006400;
+  margin: 50px auto;
+}
+
+h2 {
+  color: #006400;
+  border-left: 5px solid #006400;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.box div {
+  width: 30%;
+}
+
+img,
+h2,
+p {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 400px) {
+  div {
+    width: 100%;
+  }
+
+  imd {
+    width: 100%;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    width: 960px;
+    background-color: #eeeeee ;
+}
+h1{
+    color: rgb(12, 246, 125);
+}
+
+h2{
+    color: rgb(12, 246, 125);
+    border-left: rgb(12, 246, 125);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
