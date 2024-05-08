@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  /*デフォルトの文字色、font-familyを予め当てておく*/
+  color: #4f260b;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "ＭＳ 明朝", serif;
+}
+
+a {
+  /*下線を消す*/
+  text-decoration: none;
+  /*色を消す*/
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+ul {
+  /*左の「・」を消す*/
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+
+body {
+  background-color: #e8d9bf;
+  font-size: 23px;
+}
+
+/* ヘッダー */
+.pc_nav ul {
+  display: flex;
+  gap: 55px;
+}
+
+.pc_nav ul li {
+  width: 105px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: YuGothic, "Yu Gothic", sans-serif, "Hiragino Sans W3",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.header_logo {
+  width: 226px;
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7% 0 3%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ============================
+* キャッチコピー
+* ========================= */
+.catch_copy {
+  text-align: center;
+}
+.en {
+  font-size: 30px;
+}
+.catch_copy_ja {
+  font-size: 82px;
+}
+
+/* ============================
+* ABOUT US
+* ========================= */
+.about_us {
+  display: flex;
+  justify-content: space-between;
+}
+.about_us_im {
+  width: 50%;
+}
+#about_us h2 {
+  width: 27.2%;
+}
+.about_us_concept {
+  font-size: 44px;
+}
+.about_us_text {
+  width: 41%;
+}
+.about_us_texts {
+  font-size: 16px;
+}
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* ============================
+* MENU
+* ========================= */
+/*上手くいかね
+.menu_im {
+  width: 15%;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+*/
+#menu h2 {
+  width: 15.1%;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_item {
+  width: 30%;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+.menu_tx {
+  font-size: 17px;
+}
+
+/* ============================
+* GALLERY
+* ========================= */
+#gallery h2 {
+  max-width: 1000px;
+  width: 24.5%;
+  margin: 0 auto;
+}
+.gallery {
+  display: flex;
+}
+
+/* ============================
+* EVENT
+* ========================= */
+#event h2 {
+  width: 17.4%;
+  margin: 0 auto;
+}
+.event_item {
+  display: flex;
+}
+
+.event {
+  max-width: 1000px;
+  padding: 10px;
+  border: 4px solid #4f260b;
+  margin: 0 auto;
+}
+
+/* ============================
+* ACCESS
+* ========================= */
+#access h2 {
+  width: 21.3%;
+  margin: 0 auto;
+}
+.access_map {
+  max-width: 100%;
+}
+
+/* ============================
+* フッター
+* ========================= */
+footer img {
+  width: 22.7%;
+}
+.footer_text {
+  font-size: 20px;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: center;
+}
