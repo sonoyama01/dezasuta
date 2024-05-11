@@ -265,9 +265,3 @@ address p{
   text-align: center;
   padding-bottom: 78px;
 }
-.page_top{
-  max-width: 125px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-}

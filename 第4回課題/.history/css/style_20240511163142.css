@@ -42,7 +42,7 @@ ul {
   list-style: none;
 }
 
-img,iframe {
+img {
   max-width: 100%;
   vertical-align: bottom;
   border: none;
@@ -119,9 +119,6 @@ body {
 .about_us_im {
   width: 50%;
 }
-.about_us_im img{
-  border-bottom-right-radius: 82px;
-}
 #about_us h2 {
   width: 272px;
   margin-top: 68px;
@@ -146,6 +143,16 @@ body {
 /* ============================
 * MENU
 * ========================= */
+/*上手くいかね
+.menu_im {
+  width: 15%;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+*/
 #menu{
   margin-bottom: 100px;
 }
@@ -159,34 +166,24 @@ body {
 }
 .menu_item {
   width: 30%;
-  position: relative;
-}
-.menu_item img{
-  border-top-right-radius: 42px;
 }
 
 h3 {
   font-size: 38px;
-  color: #d30202;
-  position: absolute;
-  top: 191px;
+  margin-bottom: 25px;
 }
 
 .menu_tx {
   font-size: 17px;
-  margin-top: 44px;
 }
 
 /* ============================
 * GALLERY
 * ========================= */
-#gallery{
-  margin-bottom: 71px;
-}
 #gallery h2 {
   max-width: 1000px;
   width: 245px;
-  margin: 0 auto 26px;
+  margin: 0 auto;
 }
 .gallery {
   display: flex;
@@ -195,30 +192,19 @@ h3 {
 /* ============================
 * EVENT
 * ========================= */
-#event{
-  margin-bottom: 80px;
-}
 #event h2 {
   width: 174px;
-  margin: 0 auto 39px;
+  margin: 0 auto;
 }
 .event_item {
   display: flex;
-  padding-bottom: 26px;
 }
 
 .event {
   max-width: 1000px;
-  padding: 41px 8.4% 20px 8%;
+  padding: 10px;
   border: 4px solid #4f260b;
   margin: 0 auto;
-  background-color: #fff;
-}
-dt{
-  padding-right: 49px;
-}
-dd{
-  text-decoration: underline 1px solid #4f260b;
 }
 
 /* ============================
@@ -226,48 +212,24 @@ dd{
 * ========================= */
 #access h2 {
   width: 213px;
-  margin: 0 auto 46px;
+  margin: 0 auto;
 }
 .access_map {
   max-width: 100%;
-}
-iframe{
-  aspect-ratio: 1920/471;
 }
 
 /* ============================
 * フッター
 * ========================= */
-footer{
-  background-color: #fff;
+footer img {
+  width: 227px;
 }
-
-.footer_img {
-  width: 22.7%;
-}
-address {
+.footer_text {
   font-size: 20px;
-  margin-left: 69px;
-  font-style: normal;
-}
-address p{
-  margin-bottom: 23px;
 }
 .footer_wrap {
-  max-width: 1000px;
-  margin: 0 auto;
   display: flex;
-  padding: 76px 0 54px 0;
 }
 #footer_copyright {
-  display: block;
   font-size: 16px;
-  text-align: center;
-  padding-bottom: 78px;
-}
-.page_top{
-  max-width: 125px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
 }

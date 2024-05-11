@@ -167,14 +167,12 @@ body {
 
 h3 {
   font-size: 38px;
-  color: #d30202;
+  margin-bottom: 25px;
   position: absolute;
-  top: 191px;
 }
 
 .menu_tx {
   font-size: 17px;
-  margin-top: 44px;
 }
 
 /* ============================
@@ -264,10 +262,4 @@ address p{
   font-size: 16px;
   text-align: center;
   padding-bottom: 78px;
-}
-.page_top{
-  max-width: 125px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
 }

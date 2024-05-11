@@ -159,7 +159,6 @@ body {
 }
 .menu_item {
   width: 30%;
-  position: relative;
 }
 .menu_item img{
   border-top-right-radius: 42px;
@@ -167,14 +166,11 @@ body {
 
 h3 {
   font-size: 38px;
-  color: #d30202;
-  position: absolute;
-  top: 191px;
+  margin-bottom: 25px;
 }
 
 .menu_tx {
   font-size: 17px;
-  margin-top: 44px;
 }
 
 /* ============================
@@ -242,32 +238,22 @@ footer{
   background-color: #fff;
 }
 
-.footer_img {
-  width: 22.7%;
+footer img {
+  width: 227px;
 }
-address {
+.footer_text {
   font-size: 20px;
   margin-left: 69px;
-  font-style: normal;
-}
-address p{
-  margin-bottom: 23px;
 }
 .footer_wrap {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  padding: 76px 0 54px 0;
+  padding: 76px 0 77px 0;
 }
 #footer_copyright {
   display: block;
   font-size: 16px;
   text-align: center;
   padding-bottom: 78px;
-}
-.page_top{
-  max-width: 125px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
 }

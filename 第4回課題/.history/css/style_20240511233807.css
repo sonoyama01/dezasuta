@@ -160,6 +160,7 @@ body {
 .menu_item {
   width: 30%;
   position: relative;
+  top: 191px;
 }
 .menu_item img{
   border-top-right-radius: 42px;
@@ -167,14 +168,13 @@ body {
 
 h3 {
   font-size: 38px;
-  color: #d30202;
+  
   position: absolute;
-  top: 191px;
 }
 
 .menu_tx {
   font-size: 17px;
-  margin-top: 44px;
+  margin-top: 25px;
 }
 
 /* ============================
@@ -264,10 +264,4 @@ address p{
   font-size: 16px;
   text-align: center;
   padding-bottom: 78px;
-}
-.page_top{
-  max-width: 125px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
 }
