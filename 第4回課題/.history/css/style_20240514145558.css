@@ -48,9 +48,6 @@ iframe {
   vertical-align: bottom;
   border: none;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #e8d9bf;
@@ -262,7 +259,6 @@ address {
   font-size: 20px;
   margin-left: 69px;
   font-style: normal;
-  line-height: 2;
 }
 address p {
   margin-bottom: 23px;

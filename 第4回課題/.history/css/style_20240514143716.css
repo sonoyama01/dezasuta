@@ -48,9 +48,6 @@ iframe {
   vertical-align: bottom;
   border: none;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #e8d9bf;
@@ -69,7 +66,6 @@ body {
   color: #ffffff;
   font-weight: bold;
   font-size: 18px;
-  font-feature-settings: "palt";
   font-family: YuGothic, "Yu Gothic", sans-serif, "Hiragino Sans W3",
     "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo,
     "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -108,11 +104,9 @@ body {
 .catch_copy_ja {
   font-size: 82px;
   margin-bottom: 45px;
-  line-height: 1.2;
 }
 .catch_copy_text {
   margin-bottom: 99px;
-  line-height: 1.7;
 }
 
 /* ============================
@@ -137,14 +131,12 @@ body {
 .about_us_concept {
   font-size: 44px;
   margin-bottom: 37px;
-  line-height: 1.4;
 }
 .about_us_text {
   width: 41%;
 }
 .about_us_texts {
   font-size: 16px;
-  line-height: 1.6;
 }
 .wrap {
   max-width: 1000px;
@@ -180,13 +172,12 @@ h3 {
   font-size: 38px;
   color: #d30202;
   position: absolute;
-  top: 95.5%;
+  top: 191px;
 }
 
 .menu_tx {
   font-size: 17px;
   margin-top: 44px;
-  line-height: 1.5;
 }
 
 /* ============================
@@ -202,7 +193,6 @@ h3 {
 }
 .gallery {
   display: flex;
-  width: 20%;
 }
 
 /* ============================
@@ -262,7 +252,6 @@ address {
   font-size: 20px;
   margin-left: 69px;
   font-style: normal;
-  line-height: 2;
 }
 address p {
   margin-bottom: 23px;

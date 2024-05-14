@@ -48,9 +48,6 @@ iframe {
   vertical-align: bottom;
   border: none;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #e8d9bf;

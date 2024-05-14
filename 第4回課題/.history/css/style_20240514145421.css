@@ -48,9 +48,6 @@ iframe {
   vertical-align: bottom;
   border: none;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #e8d9bf;
@@ -141,10 +138,10 @@ body {
 }
 .about_us_text {
   width: 41%;
+  line-height: 1.6;
 }
 .about_us_texts {
   font-size: 16px;
-  line-height: 1.6;
 }
 .wrap {
   max-width: 1000px;
@@ -186,7 +183,6 @@ h3 {
 .menu_tx {
   font-size: 17px;
   margin-top: 44px;
-  line-height: 1.5;
 }
 
 /* ============================
@@ -262,7 +258,6 @@ address {
   font-size: 20px;
   margin-left: 69px;
   font-style: normal;
-  line-height: 2;
 }
 address p {
   margin-bottom: 23px;
