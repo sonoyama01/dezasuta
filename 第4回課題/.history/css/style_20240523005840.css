@@ -208,9 +208,6 @@ h3 {
   display: flex;
   width: 20%;
 }
-.img_sp {
-  display: none;
-}
 
 /* ============================
 * EVENT
@@ -394,37 +391,11 @@ address p {
 * SP767以下
 * ========================= */
 @media screen and (max-width: 767px) {
-  /* キャッチコピー */
-  /* ========================= */
-  .catch_copy_text {
-    font-size: 16px;
-    line-height: 1.875;
-    margin-bottom: 54px;
-  }
   /* ABOUT US */
   /* ========================= */
-  .about_us {
-    display: block;
-    width: 100%;
-  }
-  .about_us_im {
-    width: 100%;
-  }
-  .about_us_im img {
-    border-bottom-right-radius: 0px;
-  }
-  .about_us_concept {
-    font-size: 36px;
-    margin-bottom: 28px;
-    line-height: 1.25;
-  }
-  .about_us_text {
-    width: 80%;
-    margin: 0 auto;
-  }
   #about_us h2 {
     width: 160px;
-    margin: 0 auto;
+    margin-top: 0;
     margin-bottom: 12px;
   }
   /* MENU */
@@ -448,31 +419,14 @@ address p {
     width: 142px;
     margin: 0 auto 15px;
   }
-  .img_pc {
-    display: none;
-  }
-  .img_sp {
-    display: block;
-    width: 100%;
-  }
   /* EVENT */
   /* ========================= */
-  #event {
-    margin-bottom: 0px;
-  }
   #event h2 {
     width: 101px;
     margin: 0 auto 15px;
   }
-  .event {
-    margin: 15px 20px 30px;
-  }
   .event_item {
     display: block;
-  }
-  dd {
-    white-space: nowrap;
-    overflow: hidden;
   }
   /* ACCESS */
   /* ========================= */
@@ -482,23 +436,10 @@ address p {
   }
   /* フッター */
   /* ========================= */
-  .footer_img {
-    width: 227px;
-    margin-bottom: 27px;
-  }
   address {
     font-size: 18px;
-    margin: 0 auto;
+    margin-left: 69px;
     font-style: normal;
-    line-height: 1.72;
-  }
-  address p {
-    margin-bottom: 12px;
-  }
-  .footer_wrap {
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    padding: 41px 0 30px 0;
+    line-height: 2;
   }
 }

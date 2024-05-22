@@ -208,9 +208,6 @@ h3 {
   display: flex;
   width: 20%;
 }
-.img_sp {
-  display: none;
-}
 
 /* ============================
 * EVENT
@@ -447,13 +444,6 @@ address p {
     max-width: 100%;
     width: 142px;
     margin: 0 auto 15px;
-  }
-  .img_pc {
-    display: none;
-  }
-  .img_sp {
-    display: block;
-    width: 100%;
   }
   /* EVENT */
   /* ========================= */

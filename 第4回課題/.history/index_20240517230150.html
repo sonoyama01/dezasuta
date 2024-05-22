@@ -14,11 +14,7 @@
     <header>
         <div class="header_slide">
             <div class="mv">
-                <picture>
-                    <source srcset="images/sp_main_vs_2@2x-100.jpg" media="(max-width:767px)">
-                    <img src="./images/pc_first-100.jpg" alt="店内の様子">
-                </picture>
-
+                <img src="./images/pc_first-100.jpg" alt="店内の様子">
             </div>
         </div>
         <div class="header_wrap">
@@ -52,20 +48,15 @@
         <p class="catch_copy_ja"><span class="en">Have a happy day From a cup of coffee.</span><br>
             ハッピーに溢れる1日を<br>
             1杯のコーヒーから。</p><!-- /.catch_copy -->
-        <p class="catch_copy_text">毎日を丁寧に大切に過ごしたい。<br class="br_sp">だからこそ一杯一杯丁寧にコーヒーを入れ<br>
-            足を運んでくれるお客さんには落ち着く空間と<br class="br_sp">こだわりのコーヒーを提供したい。</p>
+        <p class="catch_copy_text">毎日を丁寧に大切に過ごしたい。だからこそ一杯一杯丁寧にコーヒーを入れ<br>
+            足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。</p>
     </div><!-- /.catch_copy -->
 
     <!-- ABOUT US -->
     <section id="about_us">
         <div class="wrap">
             <div class="about_us">
-                <div class="about_us_im">
-                    <picture>
-                        <source srcset="images/about_us@2x-100.jpg" media="(max-width:767px)">
-                        <img src="./images/pc_about-100.jpg" alt="about us">
-                    </picture>
-                </div>
+                <div class="about_us_im"><img src="./images/pc_about-100.jpg" alt="about us"></div>
                 <div class="about_us_text">
                     <h2><img src="./images/about_us@2x.png" alt=""></h2>
                     <p class="about_us_concept">私たちが提供する<br>
@@ -116,13 +107,12 @@
     <section id="gallery">
         <h2><img src="./images/gallery@2x.png" alt="gallery"></h2>
         <div class="gallery">
-            <img class="img_pc" src="./images/pc_gallary_01-100.jpg" alt="">
-            <img class="img_pc" src="./images/pc_gallary_02-100.jpg" alt="">
-            <img class="img_pc" src="./images/pc_gallary_03-100.jpg" alt="">
-            <img class="img_pc" src="./images/pc_gallary_04-100.jpg" alt="">
-            <img class="img_pc" src="./images/pc_gallary_05-100.jpg" alt="">
+            <img src="./images/pc_gallary_01-100.jpg" alt="">
+            <img src="./images/pc_gallary_02-100.jpg" alt="">
+            <img src="./images/pc_gallary_03-100.jpg" alt="">
+            <img src="./images/pc_gallary_04-100.jpg" alt="">
+            <img src="./images/pc_gallary_05-100.jpg" alt="">
         </div><!-- /.gallery -->
-        <img class="img_sp" src="./images/mobile_gallery-100.jpg" alt="">
     </section><!-- /#gallery -->
 
     <!-- EVENT -->
@@ -181,7 +171,6 @@
         $(function () {
             $('.sp_btn').on('click', function () {
                 $('.sp_nav').fadeToggle();
-                $('.sp_btn').toggleClass('open')
             })
         })
     </script>

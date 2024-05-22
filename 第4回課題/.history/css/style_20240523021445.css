@@ -448,13 +448,6 @@ address p {
     width: 142px;
     margin: 0 auto 15px;
   }
-  .img_pc {
-    display: none;
-  }
-  .img_sp {
-    display: block;
-    width: 100%;
-  }
   /* EVENT */
   /* ========================= */
   #event {

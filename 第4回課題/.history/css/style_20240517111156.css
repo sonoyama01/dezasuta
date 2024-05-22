@@ -115,9 +115,6 @@ body {
   margin-bottom: 99px;
   line-height: 1.7;
 }
-.br_sp {
-  display: none;
-}
 
 /* ============================
 * ABOUT US
@@ -140,8 +137,8 @@ body {
 }
 .about_us_concept {
   font-size: 44px;
-  margin-bottom: 19px;
-  line-height: 1.38;
+  margin-bottom: 24px;
+  line-height: 1.4;
 }
 .about_us_text {
   width: 42%;
@@ -207,9 +204,6 @@ h3 {
 .gallery {
   display: flex;
   width: 20%;
-}
-.img_sp {
-  display: none;
 }
 
 /* ============================
@@ -291,214 +285,4 @@ address p {
   position: fixed;
   bottom: 40px;
   right: 40px;
-}
-
-/* SP 1000以下*/
-/* ========================= */
-.sp_nav,
-.sp_btn {
-  display: none;
-}
-@media screen and (max-width: 1100px) {
-  .pc_nav {
-    display: none;
-  }
-  .sp_btn {
-    display: block;
-    height: 23px;
-    cursor: pointer;
-    z-index: 2;
-  }
-  .sp_btn span {
-    display: block;
-    width: 23px;
-    height: 3px;
-    border-radius: 2px;
-    background: #fff;
-    /* 位置の調整*/
-    position: relative;
-    top: 10px;
-    /* アニメーション */
-    transition: 0.3s;
-  }
-  .sp_btn span::before,
-  .sp_btn span::after {
-    content: "";
-    display: block;
-    width: 23px;
-    height: 3px;
-    border-radius: 2px;
-    background: #fff;
-    /* 位置の調整*/
-    position: absolute;
-    /* アニメーション */
-    transition: 0.3s;
-  }
-  .sp_btn span::before {
-    bottom: 10px;
-  }
-  .sp_btn span::after {
-    top: 10px;
-  }
-  /* ×印 */
-  .sp_btn.open span {
-    background: transparent;
-  }
-  .sp_btn.open span::before {
-    bottom: 0;
-    transform: rotate(45deg);
-  }
-  .sp_btn.open span::after {
-    top: 0;
-    transform: rotate(-45deg);
-  }
-  /* メニューの見た目　*/
-  .sp_nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1;
-  }
-  .sp_nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  .sp_nav ul li {
-    padding: 20px;
-    color: #fff;
-    font-size: 18px;
-
-    font-family: YuGothic, "Yu Gothic", sans-serif, "Hiragino Sans W3",
-      "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo,
-      "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  }
-  .en {
-    margin: 22px;
-  }
-  .catch_copy_ja {
-    font-size: 38px;
-    line-height: 1.16;
-  }
-  .br_sp {
-    display: block;
-  }
-}
-
-/* ============================
-* SP767以下
-* ========================= */
-@media screen and (max-width: 767px) {
-  /* キャッチコピー */
-  /* ========================= */
-  .catch_copy_text {
-    font-size: 16px;
-    line-height: 1.875;
-    margin-bottom: 54px;
-  }
-  /* ABOUT US */
-  /* ========================= */
-  .about_us {
-    display: block;
-    width: 100%;
-  }
-  .about_us_im {
-    width: 100%;
-  }
-  .about_us_im img {
-    border-bottom-right-radius: 0px;
-  }
-  .about_us_concept {
-    font-size: 36px;
-    margin-bottom: 28px;
-    line-height: 1.25;
-  }
-  .about_us_text {
-    width: 80%;
-    margin: 0 auto;
-  }
-  #about_us h2 {
-    width: 160px;
-    margin: 0 auto;
-    margin-bottom: 12px;
-  }
-  /* MENU */
-  /* ========================= */
-  #menu h2 {
-    width: 88px;
-    margin: 0 auto 17px;
-  }
-  .menu {
-    flex-direction: column;
-    gap: 56px;
-    align-items: center;
-  }
-  .menu_item {
-    width: 300px;
-  }
-  /* GALLERY */
-  /* ========================= */
-  #gallery h2 {
-    max-width: 100%;
-    width: 142px;
-    margin: 0 auto 15px;
-  }
-  .img_pc {
-    display: none;
-  }
-  .img_sp {
-    display: block;
-    width: 100%;
-  }
-  /* EVENT */
-  /* ========================= */
-  #event {
-    margin-bottom: 0px;
-  }
-  #event h2 {
-    width: 101px;
-    margin: 0 auto 15px;
-  }
-  .event {
-    margin: 15px 20px 30px;
-  }
-  .event_item {
-    display: block;
-  }
-  dd {
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  /* ACCESS */
-  /* ========================= */
-  #access h2 {
-    width: 124px;
-    margin: 0 auto 5px;
-  }
-  /* フッター */
-  /* ========================= */
-  .footer_img {
-    width: 227px;
-    margin-bottom: 27px;
-  }
-  address {
-    font-size: 18px;
-    margin: 0 auto;
-    font-style: normal;
-    line-height: 1.72;
-  }
-  address p {
-    margin-bottom: 12px;
-  }
-  .footer_wrap {
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    padding: 41px 0 30px 0;
-  }
 }

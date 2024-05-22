@@ -208,9 +208,6 @@ h3 {
   display: flex;
   width: 20%;
 }
-.img_sp {
-  display: none;
-}
 
 /* ============================
 * EVENT
@@ -424,8 +421,9 @@ address p {
   }
   #about_us h2 {
     width: 160px;
-    margin: 0 auto;
+    margin-top: 0;
     margin-bottom: 12px;
+    align-items: center;
   }
   /* MENU */
   /* ========================= */
@@ -447,13 +445,6 @@ address p {
     max-width: 100%;
     width: 142px;
     margin: 0 auto 15px;
-  }
-  .img_pc {
-    display: none;
-  }
-  .img_sp {
-    display: block;
-    width: 100%;
   }
   /* EVENT */
   /* ========================= */
