@@ -10,7 +10,6 @@
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -19,15 +18,8 @@
         <div class="header_slide">
             <div class="mv">
                 <picture>
-                    <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width:767px)">
-                    <img src="./images/pc_first-100.jpg" alt="店内の様子">
-                </picture>
-
-            </div>
-            <div class="mv">
-                <picture>
                     <source srcset="images/sp_main_vs_2@2x-100.jpg" media="(max-width:767px)">
-                    <img src="./images/slider_2.jpg" alt="店内の様子">
+                    <img src="./images/pc_first-100.jpg" alt="店内の様子">
                 </picture>
 
             </div>
@@ -97,10 +89,7 @@
             <div class="menu">
                 <div class="menu_item">
                     <div>
-                        <picture>
-                            <source srcset="images/drink_sp@2x-100.jpg" media="(max-width:767px)">
-                            <img src="./images/pc_menu_drink-100.jpg" alt="drink">
-                        </picture>
+                        <img src="./images/pc_menu_drink-100.jpg" alt="drink">
                         <h3>Drink</h3>
                     </div>
                     <p class="menu_tx">ドリンクメニューの概要を100文字程度で紹介します。
@@ -108,10 +97,7 @@
                 </div><!-- /.menu_item -->
                 <div class="menu_item">
                     <div>
-                        <picture>
-                            <source srcset="images/food_sp@2x-100.jpg" media="(max-width:767px)">
-                            <img src="./images/pc_menu_food-100.jpg" alt="food">
-                        </picture>
+                        <img src="./images/pc_menu_food-100.jpg" alt="food">
                         <h3>Food</h3>
                     </div>
                     <p class="menu_tx">フードメニューの概要を100文字程度で紹介します。
@@ -119,10 +105,7 @@
                 </div><!-- /.menu_item -->
                 <div class="menu_item">
                     <div>
-                        <picture>
-                            <source srcset="images/cake_sp@2x-100.jpg" media="(max-width:767px)">
-                            <img src="./images/pc_menu_sweets-100.jpg" alt="sweet">
-                        </picture>
+                        <img src="./images/pc_menu_sweets-100.jpg" alt="sweet">
                         <h3>Sweet</h3>
                     </div>
                     <p class="menu_tx">スイーツメニューの概要を100文字程度で紹介します。
@@ -136,10 +119,7 @@
     <section id="gallery">
         <h2><img src="./images/gallery@2x.png" alt="gallery"></h2>
         <div class="gallery">
-
-
             <img class="img_pc" src="./images/pc_gallary_01-100.jpg" alt="">
-
             <img class="img_pc" src="./images/pc_gallary_02-100.jpg" alt="">
             <img class="img_pc" src="./images/pc_gallary_03-100.jpg" alt="">
             <img class="img_pc" src="./images/pc_gallary_04-100.jpg" alt="">
@@ -150,24 +130,22 @@
 
     <!-- EVENT -->
     <section id="event">
-        <div class="wrap">
-            <h2><img src="./images/event@2x.png" alt="event"></h2>
-            <div class="event">
-                <dl>
-                    <div class="event_item">
-                        <dt><time datetime="2020-06-23">2020.06.23</time></dt>
-                        <dd>7月はイベント出店のため0/0お休みします</dd>
-                    </div>
-                    <div class="event_item">
-                        <dt><time datetime="2020-03-15">2020.03.15</time></dt>
-                        <dd>春の新商品新発売。話題のあのブランドとコラボ</dd>
-                    </div>
-                    <div class="event_item">
-                        <dt><time datetime="2020-02-06">2020.02.06</time></dt>
-                        <dd>コーヒーの日で30&percnt;OFFイベントを開催&lbrack;3日間限定&rbrack;</dd>
-                    </div>
-                </dl>
-            </div>
+        <h2><img src="./images/event@2x.png" alt="event"></h2>
+        <div class="event">
+            <dl>
+                <div class="event_item">
+                    <dt><time datetime="2020-06-23">2020.06.23</time></dt>
+                    <dd>7月はイベント出店のため0/0お休みします</dd>
+                </div>
+                <div class="event_item">
+                    <dt><time datetime="2020-03-15">2020.03.15</time></dt>
+                    <dd>春の新商品新発売。話題のあのブランドとコラボ</dd>
+                </div>
+                <div class="event_item">
+                    <dt><time datetime="2020-02-06">2020.02.06</time></dt>
+                    <dd>コーヒーの日で30&percnt;OFFイベントを開催&lbrack;3日間限定&rbrack;</dd>
+                </div>
+            </dl>
         </div>
     </section><!-- /#event -->
 
@@ -208,12 +186,6 @@
                 $('.sp_nav').fadeToggle();
                 $('.sp_btn').toggleClass('open')
             })
-            $('.header_slide').slick({
-                // autoplay: true,
-                autoplaySpeed: 2000,
-                dots: true,
-                arrows: false
-            });
         })
     </script>
 </body>

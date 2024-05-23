@@ -161,7 +161,7 @@ body {
 .wrap {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 10%;
+  padding: 0 10px;
 }
 
 /* ============================
@@ -237,7 +237,7 @@ h3 {
 
 .event {
   max-width: 1000px;
-  padding: 41px 0 20px 15.5%;
+  padding: 41px 8.4% 20px 8%;
   border: 4px solid #4f260b;
   margin: 0 auto;
   background-color: #fff;
@@ -396,18 +396,6 @@ address p {
   .br_sp {
     display: block;
   }
-  .wrap {
-    padding: 0 5%;
-  }
-  .event {
-    padding-left: 7.8%;
-  .event_item {
-    display: block;
-  }
-  dd {
-    white-space: nowrap;
-    overflow: hidden;
-  }
 }
 
 /* ============================
@@ -428,8 +416,7 @@ address p {
     width: 100%;
   }
   .about_us_im {
-    width: 100vw;
-    margin: 0 calc(50% - 50vw) 35px;
+    width: 100%;
   }
   .about_us_im img {
     border-bottom-right-radius: 0px;
@@ -440,9 +427,9 @@ address p {
     line-height: 1.25;
   }
   .about_us_text {
+    display: contents;
     width: 80%;
     margin: 0 auto;
-    display: contents;
   }
   #about_us h2 {
     width: 160px;
@@ -450,7 +437,10 @@ address p {
     margin-bottom: 12px;
     order: -1;
   }
+ 
 
+
+}
   /* MENU */
   /* ========================= */
   #menu h2 {
@@ -463,7 +453,7 @@ address p {
     align-items: center;
   }
   .menu_item {
-    width: 100%;
+    width: 300px;
   }
   /* GALLERY */
   /* ========================= */
@@ -489,7 +479,7 @@ address p {
     margin: 0 auto 15px;
   }
   .event {
-    margin: 15px 0px 30px;
+    margin: 15px 20px 30px;
   }
   .event_item {
     display: block;
