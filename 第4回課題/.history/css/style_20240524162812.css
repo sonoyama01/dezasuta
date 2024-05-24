@@ -438,6 +438,36 @@ address p {
     white-space: nowrap;
     overflow: hidden;
   }
+
+  /* ABOUT US */
+  /* ========================= */
+  .about_us {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about_us_im {
+    width: 100vw;
+    margin: 0 calc(50% - 50vw) 35px;
+  }
+  .about_us_im img {
+    border-bottom-right-radius: 0px;
+  }
+  .about_us_concept {
+    font-size: 36px;
+    margin-bottom: 28px;
+    line-height: 1.25;
+  }
+  .about_us_text {
+    width: 80%;
+    margin: 0 auto;
+    display: contents;
+  }
+  #about_us h2 {
+    width: 160px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    order: -1;
+  }
 }
 /* ============================
 * SP767以下

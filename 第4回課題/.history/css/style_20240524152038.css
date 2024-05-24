@@ -220,34 +220,13 @@ h3 {
 .img_sp {
   display: none;
 }
-/* スライドボタン */
-/* ========================= */
-.slick-prev {
-  left: 20%;
-  z-index: 100;
+
+/* .slick-prev {
+  left: 15%;
 }
 .slick-next {
-  right: 20%;
-  z-index: 100;
-}
-.slick-prev:before {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: block;
-  border-top: 5px solid #ffffff;
-  border-left: 5px solid #ffffff;
-  transform: rotate(-45deg);
-}
-.slick-next:before {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: block;
-  border-top: 5px solid #ffffff;
-  border-right: 5px solid #ffffff;
-  transform: rotate(45deg);
-}
+  right: 15%;
+} */
 
 /* ============================
 * EVENT
