@@ -317,7 +317,10 @@ address p {
   display: flex;
   padding: 76px 0 54px 0;
 }
-
+small {
+  display: block;
+  text-align: center;
+}
 #footer_copyright {
   display: block;
   font-size: 16px;
@@ -615,6 +618,7 @@ address p {
     align-items: flex-start;
     padding: 41px 0 45px 20px;
   }
+
 
   #footer_copyright {
     display: block;
